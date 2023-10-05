@@ -1,0 +1,40 @@
+table{
+    border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+    
+}
+
+
+tr{
+    border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+}
+
+thead{
+    font: size 14px; ;
+    border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+}
+
+td{
+    border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+    text-align: center;
+}
+
+tbody{
+     border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+}
+
+th{
+    border: 1px solid  black;
+    border-collapse: collapse;
+    list-style-type:lower-roman;
+}
+
