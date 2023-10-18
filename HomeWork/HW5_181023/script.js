@@ -21,10 +21,10 @@ if(number1<number2){
 //Написать программу, которая считывает через prompt число и выводит одно из следующих сообщений: ‘Число меньше 100’, ‘Число больше 100’ или ‘Число равно 100’
 
 const numberNew = prompt("Задание 3. Введите число- ")
-if (number < 100) {
-    console.log(`Число ${number} меньше 100 `)
+if (numberNew < 100) {
+    console.log(`Число ${numberNew} меньше 100 `)
 } else if (numberNew > 100) {
-    console.log(`Число ${number} больше 100`)
+    console.log(`Число ${numberNew} больше 100`)
 } else {
     console.log(`Число равно 100`)
 }
