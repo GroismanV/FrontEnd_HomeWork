@@ -19,11 +19,10 @@ for (let i = 0; i < numbers.length; i++) {
 
 // Сформировать новый массив numbers_squared и передать в него все элементы из массива numbers, возведенные в квадрат
 
-const numbers_squared[]
+ const numbers_squared[]
 for (let i = 0; i < numbers.length; i++) {
     numbers_squared[i] = numbers[i] * numbers[i]
-   
-}
+   }
 
 // Создать переменную last_elem и передать в нее последний элемент из сформированного массива numbers_squared(обратиться к элементу массива по индексу)
 
