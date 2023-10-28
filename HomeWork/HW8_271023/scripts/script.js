@@ -17,3 +17,4 @@ for (let i=100; i>=50; i-=10) {
  paragraph.textContent = i
  numbersDiv.appendChild(paragraph)
 }
+
