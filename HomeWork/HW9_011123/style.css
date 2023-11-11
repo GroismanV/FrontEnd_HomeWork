@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    display:flex  ;
+    gap: 20px;
+}
+.red-square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 20px;
+    
+}
+.green-square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.pink-square {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin-bottom: 20px;
+   
+}
+.square-up {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(183, 165, 168);
+}
+
