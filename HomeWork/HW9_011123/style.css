@@ -32,4 +32,15 @@ body {
     height: 150px;
     background-color: rgb(183, 165, 168);
 }
+.root {
+      margin-top: 20px;
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    .green {
+      color: green;
+    }
 

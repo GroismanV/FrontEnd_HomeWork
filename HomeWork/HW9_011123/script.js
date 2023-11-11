@@ -43,3 +43,25 @@ rootButton.addEventListener("click", function () {
 
 /* 
 Создать кнопку и div с классом root. При клике на кнопку в div создаются по очереди параграфы синего и зеленого цветов. Первый цвет синий. */
+
+ 
+    document.addEventListener('DOMContentLoaded', function () {
+      const addButton = document.getElementById('addParagraphBtn');
+      const rootDiv = document.getElementById('root');
+      let paragraphCount = 0;
+
+      addButton.addEventListener('click', function () {
+        const paragraph = document.createElement('p');
+        
+        if (paragraphCount % 2 == 0) {
+          paragraph.textContent = 'Синий параграф';
+          paragraph.classList.add('blue');
+        } else {
+          paragraph.textContent = 'Зеленый параграф';
+          paragraph.classList.add('green');
+        }
+
+        rootDiv.appendChild(paragraph);
+        paragraphCount++;
+      });
+    });
