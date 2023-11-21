@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+    background-color: #f44336;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Monserrat' sans-serif;
+
+}
+nav ul {
+    list-style: none;/*убирает точки у маркированного списка*/
+    display: flex;/*чтобы элементы внутри ul ...*/
+}
+nav ul li a{
+    padding: 12px 24px;
+    display: block;/*чтобы ссылочные превратились в блочные (для паддинга сверху и снизу)*/
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
