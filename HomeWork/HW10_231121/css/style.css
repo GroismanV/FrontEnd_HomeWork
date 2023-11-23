@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm# */
 nav {
     background-color: #f44336;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -23,4 +24,42 @@ nav ul li a{
 nav ul li a:hover {
     background-color: #fff;
     color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+h1 {
+  font-size: 36px;
+}
+.w3-margin {
+  margin: 16px !important;
+}
+.w3-jumbo {
+  font-size: 64px !important;
+}
+.w3-red, .w3-hover-red:hover {
+  color: #fff !important;
+}
+.w3-center {
+  text-align: center !important;
+}
+.w3-text-red, .w3-hover-text-red:hover {
+	color: #f44336 !important;
+}
+.fa-anchor, .fa-coffee {
+  font-size: 200px;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.w3-padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
 }
