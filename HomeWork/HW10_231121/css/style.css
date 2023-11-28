@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 /* https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm# */
 nav {
   background-color: #f44336;
@@ -77,11 +83,6 @@ button:hover {
   padding: 64px 16px;
   max-width: 980px;
 }
-html,
-body {
-  font-size: 15px;
-  line-height: 1.5;
-}
 
 .container_cup {
   flex-direction: row-reverse;
@@ -103,7 +104,7 @@ body {
 }
 .social_icon i {
   font-size: 24px;
-    opacity: 0.6;
+  opacity: 0.6;
 
   padding-top: 32px;
   padding-bottom: 32px;
