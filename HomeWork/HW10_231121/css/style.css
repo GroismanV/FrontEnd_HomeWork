@@ -34,9 +34,23 @@ h1 {
   font-weight: 400;
   margin: 16px;
 }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+}
+h5 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
 p {
   font-family: "Lato", sans-serif;
   margin-bottom: 16px;
+  color: #757575;
 }
 button {
   font-size: 18px;
@@ -51,12 +65,54 @@ button:hover {
   background-color: #ccc;
 }
 
-.fa-anchor {
-   padding: 64px 0;
-   font-size: 200px;
-   color: #f44336;
-} 
+.content_image i {
+  padding: 64px 0;
+  font-size: 200px;
+  color: #f44336;
+}
 .container_anchor {
   display: flex;
-  
+  gap: 35px;
+  margin: 0 auto;
+  padding: 64px 16px;
+  max-width: 980px;
+}
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container_cup {
+  flex-direction: row-reverse;
+  background-color: #f1f1f1;
+}
+.quote_title {
+  margin: 16px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 64px 0;
+}
+.quote_title h6 {
+  font-size: 24px;
+}
+.social_icon i {
+  font-size: 24px;
+    opacity: 0.6;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  line-height: 1.5;
+}
+
+.social_icon p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
