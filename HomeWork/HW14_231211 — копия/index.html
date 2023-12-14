@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoom Image</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <img id="image" src="./image/40ed2696-178.jpg" onclick="zoom()">
+ 
+
+    <div class="container">
+        <h2>Выбор курсов для студента</h2>
+        <form id="courseForm">
+            <label for="frontend">Frontend:</label>
+            <select id="frontend" class="courseSelect">
+                <option value="0">Выберите курс</option>
+                <option value="100">Курс Basic - $150</option>
+                <option value="150">Курс Pro - $300</option>
+            </select>
+
+            <label for="backend">Backend:</label>
+            <select id="backend" class="courseSelect">
+                <option value="0">Выберите курс</option>
+                <option value="120">Курс Basic - $200</option>
+                <option value="180">Курс Pro - $400</option>
+            </select>
+
+            <label for="design">Design:</label>
+            <select id="design" class="courseSelect">
+                <option value="0">Выберите курс</option>
+                <option value="80">Курс Basic - $100</option>
+                <option value="120">Курс Pro - $200</option>
+            </select>
+
+            <label for="quantity">Количество курсов:</label>
+            <input type="number" id="quantity" min="1" value="1">
+
+            <button type="button" onclick="calculateTotal()">Рассчитать стоимость</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h3>Общая стоимость:</h3>
+            <p id="total"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
