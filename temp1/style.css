@@ -1,0 +1,30 @@
+/* Стили для хедера и других элементов макета */
+/* ... */
+
+/* Стили для секции с лучшими предложениями */
+.best-deals {
+    margin: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #45a049;
+}
